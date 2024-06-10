@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using staUtilities;
 
 namespace AppDePrueba
@@ -11,9 +7,16 @@ namespace AppDePrueba
     {
         static void Main(string[] args)
         {
-            Main prueba = new Main();
-            prueba.ConexionApi();
-            Console.WriteLine(prueba.About());
+            Main pruebaDLL = new staUtilities.Main();
+            //Metodos de Prueba de Cotizacion Dolar
+            //float respuesta = pruebaDLL.ObtieneCotizacionDolar();
+            //pruebaDLL.GuardaDatos();
+            //Console.WriteLine($"Cotizacion Dolar: ${respuesta}");
+            //
+            //Metodos de Prueba LiveConnect
+            //string respuesta = pruebaDLL.ObtieneDataLiveConnect();
+            //Console.WriteLine($"Profession: {respuesta}");
+            Console.WriteLine(pruebaDLL.About());
             Console.ReadKey();
         }
     }
