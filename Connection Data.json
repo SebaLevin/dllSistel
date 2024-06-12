@@ -1,0 +1,9 @@
+"LiveConnect (prueba)" : "",
+"url": "https://stoplight.io/mocks/pagegear/liveconnect-docs/334732185/assistant/listAssistant",
+"AuthenticationType" : "PageGearToken",
+"Token": "123"
+
+"Dolar BNA" : "",
+"url": "https://api.estadisticasbcra.com/usd_of",
+"AuthenticationType" : "Authorization",
+"Token": "BEARER eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDUwOTczMDgsInR5cGUiOiJleHRlcm5hbCIsInVzZXIiOiJtYXRpbWF0dXNldmljaEBnbWFpbC5jb20ifQ.do6HJt8SD62dOBFIEozCDEYH7-SHdO6dCW8ILLkluMV-dxHqFo6W29t-NhlMWP8mwJfw02431WAr9FnrDaNb5w"
